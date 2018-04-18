@@ -30,7 +30,6 @@ module firewall-module {
 
 |Name|Description|
 |----|-----------|
-|name|Subnetwork name|
 |self_link|The URI of the created resource|
 
 ### Reference
