@@ -13,7 +13,7 @@ variable "source_ranges" {
 
 variable "target_tags" {
   type = "list"
-  description = " A list of target tags for this firewall"
+  description = "A list of target tags for this firewall"
 }
 
 variable "protocol" {
