@@ -6,7 +6,7 @@ Creates and manages Network Firewall rules on GCP
 
 ```hcl
 module firewall-module {
-  source = "/Users/Gabriel/Terraform/Terraform-registry/terraform-gcp-firewall-rules"
+  source = "git@github.com:GMafra/terraform-gcp-firewall-rules.git"
   name = "ssh-rule"
   network = "test-vpc"
   protocol = "tcp"
